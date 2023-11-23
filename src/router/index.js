@@ -4,7 +4,7 @@ import page2 from '../components/page2.vue'
 import page3 from '../components/page3.vue'
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHistory(),
     routes:[
         {
             path:'/',
